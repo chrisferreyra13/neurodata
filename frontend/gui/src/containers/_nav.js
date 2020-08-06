@@ -25,7 +25,7 @@ export default [
   },
   {
     _tag: 'CSidebarNavItem',
-    name: 'Colors',
+    name: 'Colores',
     to: '/theme/colors',
     icon: 'cil-drop',
   },
