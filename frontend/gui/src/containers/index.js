@@ -1,4 +1,5 @@
 import TheContent from './TheContent'
+import TheContentinicio from './TheContentinicio'
 import TheFooter from './TheFooter'
 import TheHeader from './TheHeader'
 import TheHeaderDropdown from './TheHeaderDropdown'
@@ -10,6 +11,7 @@ import TheSidebar from './TheSidebar'
 
 export {
   TheContent,
+  TheContentinicio,
   TheFooter,
   TheHeader,
   TheHeaderDropdown,
@@ -17,5 +19,5 @@ export {
   TheHeaderDropdownNotif,
   TheHeaderDropdownTasks,
   TheLayout,
-  TheSidebar
+  TheSidebar,
 }

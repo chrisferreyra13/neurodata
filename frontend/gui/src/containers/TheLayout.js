@@ -1,20 +1,18 @@
 import React from 'react'
 import {
-  TheContent,
-  TheSidebar,
-  TheFooter,
-  TheHeader
+  TheContentinicio,
+    TheFooter,
+  //TheHeader
 } from './index'
 
 const TheLayout = () => {
 
   return (
     <div className="c-app c-default-layout">
-      <TheSidebar/>
-      <div className="c-wrapper">
-        <TheHeader/>
+            <div className="c-wrapper">
+       {/* <TheHeader/> */}
         <div className="c-body">
-          <TheContent/>
+          <TheContentinicio/>
         </div>
         <TheFooter/>
       </div>
